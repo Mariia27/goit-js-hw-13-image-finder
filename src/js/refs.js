@@ -1,5 +1,5 @@
 export default {
      searchForm: document.querySelector('#search-form'),
      gallery: document.querySelector('.gallery'),
-    loadBtn: document.querySelector('button[data-action="load-more"]'),
+     loadBtn: document.querySelector('[data-action="load"]'),
 }

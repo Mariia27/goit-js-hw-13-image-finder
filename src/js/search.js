@@ -16,7 +16,7 @@ function imageSearch(evt) {
   apiService.resetPage();
   apiService.searchQuerry = inputEl.value;
 
-  apiService.fetcArticles().then(hits => {
+  apiService.fatchImages().then(hits => {
     const markup = createListOfTemplate(hits);
     createListOfItems(markup);
   });
