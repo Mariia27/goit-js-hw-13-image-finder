@@ -24,7 +24,7 @@ function imageSearch(evt) {
 }
 
 function loadMore() {
-  apiService.fetcArticles().then(hits => {
+  apiService.fatchImages().then(hits => {
     const markup = createListOfTemplate(hits);
     createListOfItems(markup);
     window.scrollTo(0, 1000);
